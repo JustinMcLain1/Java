@@ -34,7 +34,7 @@ public class RESTAPIProject {
 	
 	HttpRequest getRequest = HttpRequest.newBuilder()
 			.uri(new URI("https://api.assemblyai.com/v2/transcript/" + transcript.getId()))
-			.header("Authorization", "881acba1780646e2a56465944bcbdc04" )
+			.header("Authorization", "API_KEY" )
 			.GET()
 			.build();
 	while(true) {
